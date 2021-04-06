@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: -0.25px;
+	font-weight: 400;
+	color: #767676;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat top center;
+	background-size: cover;
+	padding-bottom: 150px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.logo {
+	margin-top: 44px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 54px;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	text-transform: uppercase;
+	margin-left: 40px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.title {
+	margin-top: 170px;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 40px;
+	
+}
+
+h1 strong {
+	font-size: 75px;	
+	font-weight: bold;	
+	
+}
+
+.btn {
+	/*text-align: center;*/
+	margin:0 auto;  
+	font-weight: bold;
+	font-size: 18px;
+	width: 240px;
+	/*height: 65px;*/
+	background: #f2d048;
+	color: #494745;
+	padding: 20px 0;
+	border-radius: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;	
+	margin-top: 60px;
+}
+
+.section-title {
+	padding-top: 120px; 
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 40px;
+	color: #272727;
+	text-transform: uppercase;
+}
+
+.sub-title {
+	font-size: 16px;
+}
+
+.services {
+	padding-top: 75px;
+	padding-bottom: 120px;
+}
+
+.service {
+	width: 255px;
+	height: 185px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 27px;
+	margin-left: 27px;
+}
+
+h3	{
+	font-weight: bold;
+	font-size: 18px;
+	color: #272727;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+.portfolio {
+	background: #f7f7f7;
+	padding-bottom: 130px;
+}
+
+.works {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.work {
+	margin-left: 28px;
+	margin-right: 28px;
+}
+
+.story {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.about-text {
+	text-align: right;
+	width: 290px;
+}
+
+h3 span {
+	text-transform: uppercase;
+}
+.about-img {
+	width: 190px;
+	text-align: center;
+}
+
+.about-text-left {
+	width: 290px;
+	text-align: left;
+}
+
+footer {
+	padding: 100px 0;
+	text-align: center;
+}
+
+
